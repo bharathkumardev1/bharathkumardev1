@@ -7,3 +7,5 @@ The three repos below use public data, with code, evaluation and results committ
 - [Agentic-Research-Assistant](https://github.com/bharathkumardev1/Agentic-Research-Assistant): cited answers about research papers from a LangGraph loop that reviews its own answer. On QASPER the loop ties a single pass that stops at the first search's top 5 passages and loses to a single pass over 10 or 15 (test, judged correct: 58.7% against 68.0%; the loop averages 5.6 passages), so a wider first search is the better use of the budget. CI replays the recorded model calls with no API key and fails if any answer, citation or score comes out different. I graded 40 answers myself to check the judge, which agreed on 87.5%.
 
 The first two have demos that run in the browser at [bharathkumardev1.github.io](https://bharathkumardev1.github.io), next to my résumé.
+
+On 28 October 2026 I replaced the history of this repository and of the project repositories and signed the commits that follow. Each project README says what changed. This repository keeps a public backup tag of its earlier history.
