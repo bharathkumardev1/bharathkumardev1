@@ -1,4 +1,4 @@
-I'm Bharath Mandha, an AI engineer in Dallas. I build retrieval and agent systems over financial documents at Goldman Sachs. Before that I built readmission risk models at Cigna Healthcare and retail demand forecasts at Deloitte.
+I'm Bharath Mandha, an AI/ML engineer in Dallas. I build retrieval and agent systems over financial documents at Goldman Sachs. Before that I built readmission risk models at Cigna Healthcare and retail demand forecasts at Deloitte.
 
 Every repo below runs on public data, commits its code, evaluation and results, and reports each headline number against a baseline.
 
