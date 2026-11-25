@@ -3,10 +3,10 @@ I'm Bharath Mandha, an AI/ML Engineer in Dallas. I build retrieval and agent sys
 Every repo below runs on public data, commits its code, evaluation and results, and reports each headline number against a baseline.
 
 **[wiki-retrieval](https://github.com/bharathkumardev1/wiki-retrieval)**: search over the 2.68M-passage BEIR Natural Questions corpus with a LoRA-tuned MiniLM, an INT8 ONNX reranker and a cite-or-refuse agent.
-nDCG@10 0.402 on the full corpus, against 0.290 for BM25 and +0.014 over the untuned encoder (paired p 0.0001). [Demo video](https://www.youtube.com/watch?v=5vtW4iaUe3A)
+nDCG@10 0.402 on the full corpus, against 0.290 for BM25 and +0.014 over the untuned encoder (paired p 0.0001).
 
 **[tlc-demand](https://github.com/bharathkumardev1/tlc-demand)**: a LightGBM Poisson forecast of 15-minute NYC taxi pickups, served through ONNX behind a Spring Boot gateway with a circuit breaker.
-WAPE 0.2415 against 0.3104 for the best simple baseline; it loses in the two quietest zone quartiles. [Demo video](https://youtu.be/Hd28gbz9jy0)
+WAPE 0.2415 against 0.3104 for the best simple baseline; it loses in the two quietest zone quartiles.
 
 **[finance-rag-eval](https://github.com/bharathkumardev1/finance-rag-eval)**: page-level retrieval over SEC filings on FinanceBench.
 A company and period filter plus statement routing take held-out Hit@10 from 0.14 to 0.71. An embedding hybrid tied BM25 at about five times the latency, so BM25 ships. [Try it in the browser](https://bharathkumardev1.github.io/projects/finance-rag-eval/)
